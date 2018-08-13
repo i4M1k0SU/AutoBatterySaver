@@ -1,0 +1,2 @@
+# AutoBatterySaver
+自動で低電力モードを有効にするTweak
