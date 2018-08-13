@@ -1,0 +1,14 @@
+"GENERAL" = "全般";
+"GENERAL_FOOTER" = "全機能の有効/無効";
+"ENABLE" = "有効";
+"DISCHARGE" = "放電中";
+"DISCHARGE_FOOTER" = "充電中ではない時に低電力モードを自動的に有効にするバッテリー残量を選択してください。";
+"ENABLE_REMAINING_BATTERY" = "バッテリー残量";
+"ALWAYS_ENABLE" = "常に有効";
+"ALWAYS_DISABLE" = "常に無効";
+"CHARGE" = "充電中";
+"CHARGE_FOOTER" = "充電中に低電力モードを自動的に無効にするバッテリー残量を選択してください。";
+"DEFAULT" = "デフォルト";
+"APPLY_CHANGES" = "変更を適用 (Respring)";
+"APPLY_CHANGES_FOOTER" = "設定の適用時にRespringを行います。";
+"DEVELOPER" = "開発者";

@@ -1,0 +1,17 @@
+#Jailbreak Tweak for Xcode
+LatestBuild
+Packages/
+*.deb
+*.zip
+*.dylib
+
+#theos用gitignore
+.theos/
+debs/
+obj/
+
+# others
+*.swp
+!.gitkeep
+.DS_Store
+

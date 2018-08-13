@@ -1,0 +1,10 @@
+Package: jp.i4m1k0su.autobatterysaver
+Name: AutoBatterySaver
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, firmware (>= 9.0)
+Description: Automatically enable low power mode.
+Maintainer: i4M1k0SU <im1k0su@me.com>
+Author: i4M1k0SU <im1k0su@me.com>
+Homepage: https://bemani.pw/
+Section: Tweaks

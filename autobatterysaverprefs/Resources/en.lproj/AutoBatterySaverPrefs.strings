@@ -1,0 +1,14 @@
+"GENERAL" = "General";
+"GENERAL_FOOTER" = "Enable/Disable Tweak";
+"ENABLE" = "Enable";
+"DISCHARGE" = "Discharge";
+"DISCHARGE_FOOTER" = "Please select the remaining battery when automatically enable low power mode when discharging.";
+"ENABLE_REMAINING_BATTERY" = "Remaining Battery";
+"ALWAYS_ENABLE" = "Always Enable";
+"ALWAYS_DISABLE" = "Always Disable";
+"CHARGE" = "Charge";
+"CHARGE_FOOTER" = "Please select the remaining battery when automatically disable low power mode when charging.";
+"DEFAULT" = "Default";
+"APPLY_CHANGES" = "Apply Changes (Respring)";
+"APPLY_CHANGES_FOOTER" = "Respring when setting is applied.";
+"DEVELOPER" = "Developer";
