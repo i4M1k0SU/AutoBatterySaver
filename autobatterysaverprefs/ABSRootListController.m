@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import <spawn.h>
 #include "ABSRootListController.h"
 
 @implementation ABSRootListController
@@ -12,11 +13,17 @@
 }
 
 - (void)respring {
-	system("killall -9 SpringBoard");
+	pid_t pid;
+	int status;
+	const char* args[] = { "killall", "-9", "SpringBoard", NULL };
+	posix_spawn(&pid, "/usr/bin/killall", NULL, NULL, (char* const*)args, NULL);
+	waitpid(pid, &status, WEXITED);
 }
 
 - (void)openTwitter {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/i4M1k0SU"]];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/i4M1k0SU"]
+									options:@{}
+									completionHandler:nil];
 }
 
 @end
