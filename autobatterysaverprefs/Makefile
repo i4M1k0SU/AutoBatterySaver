@@ -1,7 +1,7 @@
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = AutoBatterySaverPrefs
-AutoBatterySaverPrefs_FILES = ABSRootListController.m
+AutoBatterySaverPrefs_FILES = ABSRootListController.swift
 AutoBatterySaverPrefs_INSTALL_PATH = /Library/PreferenceBundles
 AutoBatterySaverPrefs_FRAMEWORKS = UIKit
 AutoBatterySaverPrefs_PRIVATE_FRAMEWORKS = Preferences
